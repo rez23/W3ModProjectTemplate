@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserConfig>
+	<Group id="BetterRumbleSupport_Main" displayName="Mods.BetterRumbleSupport">
+		<PresetsArray>
+			<Preset id="0" displayName="BRS_Disable">
+				<Entry varId="BRS_IsEnabled" value="false"/>
+				<Entry varId="BRS_RumbleOnGeraltAttack" value="false"/>
+				<Entry varId="BRS_RumbleOnEnemyAttack" value="false"/>
+				<Entry varId="BRS_RumbleOnRunAction" value="false"/>
+				<Entry varId="BRS_RumbleOnFatique" value="false"/>
+				<Entry varId="BRS_RumbleOnHorseFatique" value="false"/>
+				<Entry varId="BRS_RumbleOnGeraldAttack" value="false"/>
+			</Preset>
+			<Preset id="1" displayName="BRS_Default">
+				<Entry varId="BRS_IsEnabled" value="true"/>
+				<Entry varId="BRS_RumbleOnGeraltAttack" value="true"/>
+				<Entry varId="BRS_RumbleOnEnemyAttack" value="true"/>
+				<Entry varId="BRS_RumbleOnRunAction" value="true"/>
+				<Entry varId="BRS_RumbleOnFatique" value="true"/>
+				<Entry varId="BRS_RumbleOnHorseFatique" value="true"/>
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="BRS_Init" displayName="" displayType="TOGGLE" visibilityCondition="hideAlways"/>
+			<Var id="BRS_IsEnabled" displayName="BRS_IsEnabled" displayType="TOGGLE" visibilityCondition="hideAlways"/>
+			<Var id="BRS_RumbleOnGeraltAttack" displayName="BRS_RumbleOnGeraltAttack" displayType="TOGGLE"/>
+			<Var id="BRS_RumbleOnEnemyAttack" displayName="BRS_RumbleOnEnemyAttck" displayType="TOGGLE"/>
+			<Var id="BRS_RumbleOnRunAction" displayName="BRS_RumbleOnRunAction" displayType="TOGGLE"/>
+			<Var id="BRS_RumbleOnFatique" displayName="BRS_RumbleOnFatique" displayType="TOGGLE"/>
+			<Var id="BRS_RumbleOnHorseFatique" displayName="BRS_RumbleOnHorseFatique" displayType="TOGGLE"/>
+		</VisibleVars>
+	</Group>
+</UserConfig>

@@ -1,0 +1,13 @@
+;meta[language=it]
+; id      |key(hex)|key(str)| text
+2119990109|        |panel_Mods|Mods
+2119990110|        |panel_BetterRumbleSupport|Better Rumble Support
+2119990111|        |preset_Mods_BetterRumbleSupport|Rumble Setting
+2119990114|        |option_BRS_IsEnabled|Enable/Disable BRS
+2119990115|        |option_BRS_RumbleOnGeraltAttack|Rumble for Geralt attack
+2119990116|        |option_BRS_RumbleOnEnemyAttck|Rumble for big damage
+2119990117|        |option_BRS_RumbleOnRunAction|Rumble for run action
+2119990118|        |option_BRS_RumbleOnFatique|Rumble for fatique
+2119990119|        |option_BRS_RumbleOnHorseFatique|Rumble os horse speed lose
+2119990126|        |preset_value_BRS_Disable|Off
+2119990127|        |preset_value_BRS_Default|On

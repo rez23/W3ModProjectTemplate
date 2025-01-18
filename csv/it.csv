@@ -1,0 +1,13 @@
+;meta[language=it]
+; id      |key(hex)|key(str)| text
+2119990109|        |panel_Mods|Mods
+2119990110|        |panel_BetterRumbleSupport|Better Rumble Support
+2119990111|        |preset_Mods_BetterRumbleSupport|Impostazioni Rumble
+2119990114|        |option_BRS_IsEnabled|Abilita/Disabilita BRS
+2119990115|        |option_BRS_RumbleOnGeraltAttack|Vibra per gli attacchi di Geralt
+2119990116|        |option_BRS_RumbleOnEnemyAttck|Vibra per gli attacchi subiti
+2119990117|        |option_BRS_RumbleOnRunAction|Vibra quando inzi a correre
+2119990118|        |option_BRS_RumbleOnFatique|Vibra per affaticamento
+2119990119|        |option_BRS_RumbleOnHorseFatique|Vibra quando il cavallo rallenta
+2119990126|        |preset_value_BRS_Disable|Spento
+2119990127|        |preset_value_BRS_Default|Acceso

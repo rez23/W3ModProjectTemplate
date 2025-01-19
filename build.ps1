@@ -40,10 +40,8 @@ if (Test-Path $manifestDir) {
     $manifestDestDir = New-Item -ItemType Directory -Path "${tempDir}\build-${modName}\bin\config\r4game\user_config_matrix\pc" -Force
 }
 
-$modScriptDestDir = New-Item -ItemType Directory -Path "${modDestContentDir}\scripts" -Force
-
 # Copy files in temè dest directory
-Copy-Item -Path "${modScriptsDir}" -Filter "*.ws" -Destination $modScriptDestDir -Recurse -Force
+Copy-Item -Path "${modScriptsDir}" -Filter "*.ws" -Destination $modDestContentDir -Recurse -Force
 
 if ( -not [string]::IsNullOrEmpty($dlcDestDir)) { Copy-Item -Path "${dlcContentDir}\*" -Destination $dlcDestDir -Recurse -Force }
 if ( -not [string]::IsNullOrEmpty($manifestDestDir)) { Copy-Item -Path "${manifestDir}\*" -Destination $manifestDestDir -Recurse -Force } 

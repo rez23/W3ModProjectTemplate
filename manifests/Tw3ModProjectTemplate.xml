@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<UserConfig>
+<UserConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/SpontanCombust/tw3-settings-schema/master/tw3-menu.xsd">
 	<Group id="BetterRumbleSupport_Main" displayName="Mods.BetterRumbleSupport">
 		<PresetsArray>
 			<Preset id="0" displayName="BRS_Disable">

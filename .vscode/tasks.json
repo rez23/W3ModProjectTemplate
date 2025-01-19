@@ -8,6 +8,7 @@
             "type": "shell",
             "command": ".\\build.ps1",
             "problemMatcher": [],
+            "args": [ "-idFixedVal", "${input:fixedVal}"],
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -20,6 +21,14 @@
                 "showReuseMessage": true,
                 "clear": false
             }
+        },
+    ],
+    "inputs": [
+        {
+          "id": "fixedVal",
+          "type":"promptString",
+          "description": "Please enter the fixed value for string id",
+          "default": ""
         }
-    ]
+      ]
 }

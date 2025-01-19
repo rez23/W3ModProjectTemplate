@@ -1,6 +1,8 @@
 param(
     [Parameter(Mandatory=$false)]
-    [bool]$DebugMode = $false
+    [bool]$DebugMode = $false,
+    [Parameter(Mandatory=$true)]
+    [number]$idFixedVal
 )
 
 # Get mod name from folder

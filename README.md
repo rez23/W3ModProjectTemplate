@@ -21,7 +21,8 @@ In this section, I'll explain how this template is structured:
 - **Scripts** go in the `./scripts` directory.
 - **DLC files** go in the `./dlc` directory.
 - **String files** go in the `./csv` directory.
-- The **generated mod zip** will be in the `./build` directory.
+- **Menu manifests** go in the `./manifests` directory.
+- The **generated mod zip** will be placed in `./build` directory by the build script.
 
 ### Build Script
 

@@ -6,7 +6,7 @@ A modern and simple project template for creating The Witcher 3 mods, based on V
 
 The main goal of this project is to create a solid foundation for writing Witcher 3 mods or DLCs in a way that enhances readability, open-source sharing, and maintainability.
 
-As you can see, the project structure is not intended to strictly mirror the internal Witcher mods layout for files and folders needed by the game. Instead, the focus here is about providing to mods developers a project structure that divides the various tasks involved inside the modding proces into a more clear, concise and modern way, bringing everything together in a easy and ready-to-use project.
+As you can see, the project structure is not intended to strictly mirror the internal Witcher mods layout for files and folders. Instead, the focus here is about providing to mods developers a project structure that divides the various tasks involved inside the modding proces into a more clear, concise and modern way, bringing everything together in a easy and ready-to-use project.
 
 This allows you to focus on writing your code while leaving the editor-specific tasks to be automated.
 

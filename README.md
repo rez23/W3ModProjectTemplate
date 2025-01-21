@@ -8,7 +8,7 @@ The main goal of this project is to create a solid foundation for writing Witche
 
 As you can see, the project structure is not intended to strictly mirror the internal Witcher mods layout for files and folders. Instead, the focus here is about providing to mods developers a project structure that divides the various tasks involved inside the modding proces into a more clear, concise and modern way, bringing everything together in a easy and ready-to-use project.
 
-This allows you to focus on writing your code while leaving the editor-specific tasks to be automated.
+This allows you to focus on writing your code while leaving the post-edit tasks to be automated from the editor.
 
 Feel free to use this template as a base for your mod.
 

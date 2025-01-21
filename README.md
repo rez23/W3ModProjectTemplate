@@ -36,14 +36,6 @@ This file is needed for go-to navigation and syntax highlighting/analysis in VS 
 
 ### Automatic releases
 
-This template came with a preconfigured workflow with the purpose of build and release the mod automatically via the powerful GitHub Actions. 
-
-When it is needed the workflow will take care of build your code and create fully installable releases for your mod!
-
-Take a look to the release workflow [main file](.github/workflow/release.yml) to get a more detailed picture of how it works.
-
-### Automatic releases
-
 This template comes with a preconfigured workflow with the purpose of building and releasing the mod automatically via the powerful GitHub Actions.
 
 When needed, the workflow will take care of building your code and creating fully installable releases for your mod!

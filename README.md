@@ -38,7 +38,7 @@ This file is needed for go-to navigation and syntax highlighting/analysis in VS 
 
 This template comes with a preconfigured workflow with the purpose of building and releasing the mod automatically via the powerfuls GitHub Actions.
 
-When needed, the workflow will take care of building your code and creating fully installable releases for your mod!
+When needed, the workflow will take care of building your code and creating fully installable releases of your mod!
 
 Take a look at the releases workflow [main file](.github/workflows/release.yml) to get a more detailed picture of how it works.
 
@@ -46,9 +46,9 @@ Take a look at the releases workflow [main file](.github/workflows/release.yml) 
 
 As I mentioned earlier, the configured action workflow will take the burden of creating releases for you when it's needed. Awesome! But you may be wondering: What exactly does "when it's ready" mean?
 
-Obviously, triggering a release pipeline anytime a new commit is pushed to the repo would not be very useful automation! So I have chosen a more git-centric approach: using tags.
+Obviously, triggering a release pipeline anytime a new commit is pushed to the repo would not be very useful automation! So here is chosen the more git-centric approach: using tags.
 
-When you tag your changes with something that matches this pattern: `v*.*`, an action that builds and releases your mod will start and upload on the release page an installable-ready version of your mod.
+When you tag your changes with something that matches the pattern: `v*.*`, an action that build and releases your mod will start uploading an installable-ready zipped version of your mod on release page.
 
 
 #### How-To

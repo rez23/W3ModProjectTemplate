@@ -48,7 +48,7 @@ As I mentioned earlier, the configured action workflow will take the burden of c
 
 Obviously, triggering a release pipeline anytime a new commit is pushed to the repo would not be very useful automation! So here is chosen the more git-centric approach: using tags.
 
-When you tag your changes with something that matches the pattern: `v*.*`, an action that build and releases your mod will start uploading an installable-ready zipped version of your mod on release page.
+When you tag your changes with something that matches the pattern: `v*.*`, an action that builds and releases your mod will start uploading an installable-ready zipped version of your mod on release page.
 
 
 #### How-To
